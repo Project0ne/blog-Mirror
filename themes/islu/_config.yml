@@ -129,7 +129,7 @@ music:
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: true  # 列表默认折叠
-  hideLrc: false     # 隐藏歌词
+  hideLrc: true     # 隐藏歌词
 
 # Whether to display the videos.
 # 是否在首页显示视频.
@@ -165,15 +165,15 @@ logTest: 氦鸭
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  enable: false
+  enable: true
   github:  https://github.com/Project0ne
   email: Project2er0@hotmail.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
-  qq: 121696015
+  qq: #
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
-  rss: false # true、false
+  rss: true # true、false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -261,7 +261,7 @@ myProjects:
         icon: fas fa-file-alt
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
         url: https://github.com/blinkfox/typora-vue-theme
-        desc: 魔改Matery主题(正在使用)
+        desc: typora-vue-theme
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -543,9 +543,9 @@ visiterMap:
 
 # ICP备案信息尾部显示
 icp:
-  enable: false
-  url: # 备案链接
-  text: # 备案信息
+  enable: true
+  url: https://icp.gov.moe/?keyword=20233404 # 备案链接
+  text: ✮萌ICP备20233404号✮ # 备案信息
 
 # 又拍联盟图标
 youpai:
